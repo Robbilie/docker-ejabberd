@@ -67,6 +67,7 @@ RUN addgroup ejabberd -g 9000 \
 # Install required dependencies
 RUN apk upgrade --update musl \
     && apk add \
+    dig \
     expat \
     freetds \
     gd \
